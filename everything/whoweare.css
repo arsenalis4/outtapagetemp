@@ -1,0 +1,377 @@
+body{
+    margin:0;
+    font-family: 'Noto Sans KR', sans-serif;
+    }
+
+.container{
+position: relative;
+width: 1920px;
+height: 3316px;
+
+background: #FFFFFF;
+}
+
+.frame{
+    /* Frame */
+position: absolute;
+width: 93.32px;
+height: 29.51px;
+left: 133px;
+top: 25px;
+}
+
+.whower{
+    position:absolute;
+    display:flex;
+    gap:130px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    width: 599.5px;
+    height: 25px;
+    top:27px;
+    left:1012px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 25px;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    }
+
+.login{
+    position: absolute;
+    width: 115px;
+    height: 22px;
+    left: 1701px;
+    top: 29px;
+    gap:31px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+        
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+        
+    color: #9F9F9F;
+}
+
+.line{
+    position: absolute;
+    width: 1330px;
+    height: 28px;
+    left: 295px;
+    top: 139px;
+    
+}
+
+.lineder{
+    position: absolute;
+    width: 17px;
+    height: 0px;
+    left: 1758px;
+    top: 41px;
+    
+    border: 1px solid #C6C6C6;
+    transform: rotate(90deg);
+}
+
+.aiintro{
+    position: absolute;
+    width: 495px;
+    height: 45px;
+    left: calc(50% - 485px/2 + 25.5px);
+    top: 316px;
+    
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 180%;
+    /* identical to box height, or 45px */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #221F20;
+}
+
+.outtar{
+    position: absolute;
+    width: 977.07px;
+    height: 309px;
+    left: 471px;
+    top: 399px;
+}
+
+.trad{
+position: absolute;
+width: 634px;
+height: 72px;
+left: calc(50% - 614px/2);
+top: 952px;
+
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 180%;
+/* or 36px */
+
+align-items: center;
+text-align: center;
+
+color: #4A4A4A;
+}
+
+.purple{
+    position: absolute;
+    width: 1931px;
+    height: 380px;
+    left: calc(50% - 1931px/2 + 5.5px);
+    top: 851px;
+    
+    background: #F4F6FB;
+}
+
+.pal{
+    position: absolute;
+    width: 296px;
+    height: 80px;
+    left: 820px;
+    top: 1061px;
+}
+
+.eightfive{
+position: absolute;
+width: 646px;
+height: 65px;
+left: 637px;
+top: 1333px;
+}
+
+.solo{
+/* 단체만을 위해서가 아닌, 개인 커리어를 위한 활동 */
+
+position: absolute;
+width: 504px;
+height: 36px;
+left: 713px;
+top: 1494px;
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #000000;
+}
+
+.work, .work1, .work2{
+    position: absolute;
+    width: 389px;
+    height: 443px;
+    top: 1610px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 42px;
+}
+
+.work,.work3{
+    left: 296px;
+}
+
+.work1,.work4{
+    left: 760px;
+}
+
+.work2,.work5{
+    left: 1224px;
+}
+
+.trad2{
+position: absolute;
+width: 598px;
+height: 65px;
+left: 661px;
+top: 2293px;
+}
+
+
+.comput{
+    position: absolute;
+    width: 230.15px;
+    height: 191.63px;
+    left: 379.85px;
+    top: 1684px;
+}
+
+.map{
+    position: absolute;
+    left: 845.21px;
+    top: 1684px;
+}
+
+.fluent{
+    position:absolute;
+    top:1696px;
+    left:1315px;
+}
+
+.books{
+position: absolute;
+width: 239.46px;
+height: 177.4px;
+left: 370.5px;
+top: 2548.8px;
+}
+
+.work3, .work4, .work5{
+    position: absolute;
+    width: 389px;
+    height: 443px;
+    top: 2454px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 42px;
+}
+
+.blackmap{
+    position:absolute;
+    left:846px;
+    top: 2528px;
+}
+
+.blackfl{
+    position:absolute;
+    top:2517.86px;
+    left:1336.17px;
+}
+
+.silmu{
+position: absolute;
+width: 100px;
+height: 36px;
+left: 442px;
+top: 1931px;
+
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 36px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+
+color: #414141;
+}
+
+.subsilmu{
+position: absolute;
+width: 290px;
+height: 26px;
+left: 351px;
+top: 1980px;
+
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #6F6F6F;
+
+}
+
+.teambeol{
+position: absolute;
+width: 180px;
+height: 36px;
+left: 870px;
+top: 1931px;
+
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 36px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+
+color: #4A4A4A;
+}
+
+.subteambeol{
+    position: absolute;
+    width: 360px;
+    height: 20px;
+    left: 44%;
+    top: 1983px;
+    
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #6F6F6F;
+}
+
+.dongi{
+position: absolute;
+width: 150px;
+height: 36px;
+left: 1347px;
+top: 1931px;
+
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #414141;
+}
+
+.subdongi{
+position: absolute;
+width: 239px;
+height: 20px;
+left: 1320px;
+top: 1983px;
+
+font-family: Noto Sans KR;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #6F6F6F;
+
+}
