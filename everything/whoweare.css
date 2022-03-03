@@ -114,7 +114,7 @@ top: 25px;
 position: absolute;
 width: 634px;
 height: 72px;
-left: calc(50% - 614px/2);
+left: 653px;
 top: 952px;
 
 font-family: Noto Sans KR;
@@ -144,7 +144,7 @@ color: #4A4A4A;
     position: absolute;
     width: 296px;
     height: 80px;
-    left: 820px;
+    left: 830px;
     top: 1061px;
 }
 
@@ -321,7 +321,7 @@ color: #4A4A4A;
     position: absolute;
     width: 360px;
     height: 20px;
-    left: 44%;
+    left: 835px;
     top: 1983px;
     
     font-family: Noto Sans KR;
