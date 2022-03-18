@@ -26,4 +26,11 @@ app.get('/whoweare', function(req, res){
 });
 });
 
+app.get('/mission', function(req, res){
+    fs.readFile('mission.html', function(error, data){
+        res.writeHead(200, {'Content-Type':'text/html'});
+        res.end(data);
+});
+});
+
 app.listen(8000);
