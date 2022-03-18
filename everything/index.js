@@ -81,3 +81,45 @@ $(document).ready(function(){
         $('.folders').fadeIn(200); 
     })}) */
 
+/*function BlockChange(a, b){
+    $(document).ready(function(){ 
+        $(a).hover(function(){  
+            $(b).css('display', 'block');
+        }, function(){  
+            $(b).css('display', 'none');
+        })}) 
+    }*/
+
+$(document).on('mouseenter', '.onetex' ,function(e) {
+    $('.one, .oneone, .oneonetwo, .onetwo').css('display', 'block');
+    $('.two, .twoone, .twotwo').css('display', 'none');
+    $('.thi, .thione').css('display', 'none');
+})
+
+$(document).on('mouseenter', '.twotex' ,function(e) {
+    $('.one, .oneone, .oneonetwo, .onetwo').css('display', 'none');
+    $('.two, .twoone, .twotwo').css('display', 'block');
+    $('.thi, .thione').css('display', 'none');
+})
+
+$(document).on('mouseenter', '.thitex' ,function(e) {
+    $('.one, .oneone, .oneonetwo, .onetwo').css('display', 'none');
+    $('.two, .twoone, .twotwo').css('display', 'none');
+    $('.thi, .thione').css('display', 'block');
+})
+
+function WeightChange(a){
+    $(document).ready(function(){ 
+        $(a).hover(function(){  
+            $(a).css('font-weight', '700');
+        }, function(){  
+            $(a).css('font-weight', '500');
+        })}) 
+    }
+
+WeightChange('.oneone');
+WeightChange('.oneonetwo');
+WeightChange('.onetwo');
+WeightChange('.twoone');
+WeightChange('.twotwo');
+WeightChange('.thione');
