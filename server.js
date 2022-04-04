@@ -33,4 +33,18 @@ app.get('/mission', function(req, res){
 });
 });
 
+app.get('/competition', function(req, res){
+    fs.readFile('competition.html', function(error, data){
+        res.writeHead(200, {'Content-Type':'text/html'});
+        res.end(data);
+});
+});
+
+app.get('/books', function(req, res){
+    fs.readFile('books.html', function(error, data){
+        res.writeHead(200, {'Content-Type':'text/html'});
+        res.end(data);
+});
+});
+
 app.listen(8000);
